@@ -7,4 +7,5 @@ def oxford_comma(array)
     array.delete(array.last)
     array.push("and #{third}")
     array.join(',')
+  end
 end
